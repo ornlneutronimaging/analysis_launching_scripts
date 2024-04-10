@@ -1,0 +1,12 @@
+
+
+import os
+import sys
+
+
+
+os.chdir(f"/HFIR/CG1D/IPTS-{IPTS}/shared/notebooks/")
+os.system("/SNS/users/j35/miniconda3/envs/python310/bin/jupyter notebook")
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
